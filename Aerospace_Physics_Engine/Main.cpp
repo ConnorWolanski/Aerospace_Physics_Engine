@@ -11,7 +11,14 @@ using namespace std;
 int main()
 {
     vector<string> msg{ "Hello", "C++", "World", "from", "VS Code", "and the C++ extension!" };
+    vector<string> jorgesMsg{ "Hello", "Connor,", "Thanks", "for", "inviting", "me" };
     for (const string& word : msg)
+    {
+        cout << word << " ";
+    }
+    cout << endl;
+
+        for (const string& word : jorgesMsg)
     {
         cout << word << " ";
     }
